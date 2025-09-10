@@ -13,7 +13,7 @@ AI Skill Bridge is a full-stack web application designed to help refugees and mi
 
 The application is designed to be **warm, supportive, and empowering**, making the job search process less stressful and more actionable.
 
-> ⚡ Note: This project was initially created using [Lovable AI](https://lovable.dev). You can also edit and run it locally using Node.js & npm.
+> ⚡ Note: This project was initially created using [Lovable AI](https://lovable.dev) and then further worked on. You can also edit and run it locally using Node.js & npm.
 
 ---
 
