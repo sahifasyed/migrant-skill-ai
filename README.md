@@ -44,15 +44,14 @@ The application is designed to be **warm, supportive, and empowering**, making t
 ---
 
 ## 📂 Project Structure
-ai-skill-bridge/
-│
-├── frontend/ # React + Tailwind frontend
-├── backend/ # FastAPI backend + requirements.txt
-├── data/ # Sample jobs & upskilling JSON files
-├── docs/ # Vision, architecture, and other documentation
-├── README.md
-├── LICENSE
-└── .gitignore
+
+- `frontend/` — React + Tailwind frontend  
+- `backend/` — FastAPI backend + `requirements.txt`  
+- `data/` — Sample jobs & upskilling JSON files  
+- `docs/` — Vision, architecture, and other documentation  
+- `README.md`  
+- `LICENSE`  
+- `.gitignore`
 
 ---
 
