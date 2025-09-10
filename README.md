@@ -83,7 +83,7 @@ npm start
 ```
 
 ## 🚀 Open your browser
-Visit [http://localhost:3000](http://localhost:3000) to see the app in action.
+Visit [https://migrant-skill-ai.lovable.app](https://migrant-skill-ai.lovable.app) to see the app in action.
 
 ---
 
