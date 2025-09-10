@@ -1,73 +1,134 @@
-# Welcome to your Lovable project
+# AI Skill Bridge
 
-## Project info
+🌟 **Helping refugees and migrants bridge their skills to local job markets**  
 
-**URL**: https://lovable.dev/projects/eb055726-5b42-4f3d-83ce-be2a962c795d
+---
 
-## How can I edit this code?
+## 🎯 Project Goal
+AI Skill Bridge is a full-stack web application designed to help refugees and migrants:  
 
-There are several ways of editing your application.
+- Map their existing skills (even if undocumented) to local job opportunities.  
+- Generate CVs in the host country’s format.  
+- Suggest quick, practical upskilling resources to enhance employability.  
 
-**Use Lovable**
+The application is designed to be **warm, supportive, and empowering**, making the job search process less stressful and more actionable.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/eb055726-5b42-4f3d-83ce-be2a962c795d) and start prompting.
+> ⚡ Note: This project was initially created using [Lovable AI](https://lovable.dev). You can also edit and run it locally using Node.js & npm.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 📦 Tech Stack & Requirements
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Frontend:** React + TailwindCSS  
+  - Responsive, friendly, and welcoming UI.  
+- **Backend:** Python + FastAPI  
+  - Endpoints include:
+    1. Submitting user skills (text input).  
+    2. Mapping skills to local job market data (mock JSON dataset).  
+    3. Generating CV text in host country format (template-based).  
+    4. Suggesting short courses or resources (mock data for MVP).  
+- **Data:** JSON/CSV files with sample skill-job mappings and upskilling resources.  
+- **Storage:** Local (in-memory or JSON files for MVP).  
+- **Authentication:** Skipped for MVP (can be added later).  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🧩 MVP Features
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- Welcome page with mission overview (friendly tone).  
+- Skill submission form.  
+- Display of matched local job roles.  
+- Generate sample CVs (downloadable PDF).  
+- Quick upskilling suggestions with links/resources.  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 📂 Project Structure
+ai-skill-bridge/
+│
+├── frontend/ # React + Tailwind frontend
+├── backend/ # FastAPI backend + requirements.txt
+├── data/ # Sample jobs & upskilling JSON files
+├── docs/ # Vision, architecture, and other documentation
+├── README.md
+├── LICENSE
+└── .gitignore
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/YOUR-USERNAME/ai-skill-bridge.git
+cd ai-skill-bridge
 ```
 
-**Edit a file directly in GitHub**
+2. Backend setup:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+cd backend
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn app:app --reload
+```
 
-**Use GitHub Codespaces**
+3. Frontend setup:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+cd frontend
+npm install
+npm start
+```
 
-## What technologies are used for this project?
+## 🚀 Open your browser
+Visit [http://localhost:3000](http://localhost:3000) to see the app in action.
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📖 Contribution
+Contributions are welcome! Feel free to:
 
-## How can I deploy this project?
+- Add new features or endpoints.
+- Improve UI/UX for accessibility.
+- Expand sample data with real-world job mappings.
 
-Simply open [Lovable](https://lovable.dev/projects/eb055726-5b42-4f3d-83ce-be2a962c795d) and click on Share -> Publish.
+Please open a Pull Request or issue to discuss changes.
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 📝 License
+This project is licensed under the [MIT License](LICENSE).
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+> 💡 **Note:** This is an MVP scaffold with placeholder data and code, ready to extend for real-world use.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
